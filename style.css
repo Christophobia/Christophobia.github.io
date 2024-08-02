@@ -1,5 +1,5 @@
 body {
-    background:url("images/eclipse.webp") center top black;
+    background: url("images/eclipse.webp") center no-repeat fixed black;
     color:white;
 }
 
