@@ -7,8 +7,9 @@ var pages = document.querySelectorAll(".page");
 
 console.log(pages);
 
-// hide all by default
-HideAll();
+// Show 1 by default
+HideAll()
+window.onload = Show(1)
 
 // add event listeners
 page1btn.addEventListener("click", function () { Show(1); });
@@ -35,3 +36,6 @@ function ToggleMenu() {
     hamMenu_ul.style.display = "none";
   else hamMenu_ul.style.display = "block";
 }
+
+const submitbtn = document.querySelector("#submitbtn");
+submitbtn.addEventListener("click", function() {Show(4);});
